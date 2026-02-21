@@ -1,10 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/README.md b/README.md
-new file mode 100644
-index 0000000000000000000000000000000000000000..3d197dc4c3ed8b1971d19dc5b132476b5811f0ee
---- /dev/null
-+++ b/README.md
-@@ -0,0 +1,88 @@
 +# SecureTransact AI – Real-Time Fraud Detection Platform
 +
 +SecureTransact AI is a microservice-based fraud detection platform for financial transaction monitoring.
